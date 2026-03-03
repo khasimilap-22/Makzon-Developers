@@ -14,7 +14,7 @@ const Auth = () => {
 
 const handleAuth = async (e: React.FormEvent) => {
     e.preventDefault();
-    navigate('/dashboard');
+    navigate('/companies');
     return; 
 
     try {
